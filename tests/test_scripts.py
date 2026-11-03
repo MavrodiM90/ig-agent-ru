@@ -81,6 +81,10 @@ class HookScoreRussian(unittest.TestCase):
         for line in ("Она потеряла подписчиков за неделю.", "Мы потеряли 300 рублей."):
             self.assertGreaterEqual(hook.check_stakes(line)[0], 70, line)
 
+    def test_lying_is_a_stake(self):
+        # "lie", "lied" are stakes in English; "врёт" must be one in Russian.
+        self.assertGreaterEqual(hook.check_stakes("Твой скилл врёт на русском.")[0], 70)
+
     def test_spaced_thousands_are_one_number(self):
         self.assertEqual(len(hook.words("18 000 рублей")), 2)
 
