@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.tmp
+tests/_tmp_swipe/
+tests/evals/out/

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ig-agent-ru",
+  "description": "Instagram-скиллы для Claude на русском",
+  "owner": {
+    "name": "MavrodiM90",
+    "url": "https://github.com/MavrodiM90"
+  },
+  "plugins": [
+    {
+      "name": "ig-agent-ru",
+      "description": "13 скиллов для Instagram на русском: рилсы, подписи, карусели, сторис, профиль, план, комментарии, директ, разбор чужих рилсов, аудит, очеловечивание текста.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/MavrodiM90/ig-agent-ru"
+    }
+  ]
+}

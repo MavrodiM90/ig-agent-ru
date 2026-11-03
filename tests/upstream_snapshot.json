@@ -1,0 +1,210 @@
+{
+  "source": "Jakeschincariol/instagram-agent-skill@d03c56b",
+  "hookscore": {
+    "Nobody tells you your first 30 reels are supposed to flop.": {
+      "score": 87.0,
+      "verdict": "STRONG"
+    },
+    "I lost $18,000 on one missing contract clause.": {
+      "score": 81.4,
+      "verdict": "STRONG"
+    },
+    "Hey guys, in this video I will show you my tips": {
+      "score": 0.0,
+      "verdict": "WEAK"
+    },
+    "Proposals used to take me five hours.": {
+      "score": 48.2,
+      "verdict": "WEAK"
+    },
+    "If your reels get views and no followers, the next 40 seconds fix it.": {
+      "score": 72.12,
+      "verdict": "STRONG"
+    },
+    "Watch what happens when I paste a competitor's caption into this.": {
+      "score": 35.16,
+      "verdict": "WEAK"
+    },
+    "Steal this four-line follow-up.": {
+      "score": 34.2,
+      "verdict": "WEAK"
+    },
+    "33% of high school graduates never read another book.": {
+      "score": 59.6,
+      "verdict": "OK"
+    }
+  },
+  "beats": {
+    "input": "I lost $18,000 on one clause.\nIt was in the contract.\nWe signed it in March.\nNow it is the first line.\nThe $18,000 stayed with me.\n",
+    "output": {
+      "wpm": 165,
+      "target": 15,
+      "total_seconds": 9.82,
+      "total_words": 27,
+      "beats": [
+        {
+          "n": 1,
+          "start": 0.0,
+          "dur": 2.18,
+          "words": 6,
+          "text": "I lost $18,000 on one clause.",
+          "concrete": 2,
+          "label": "HOOK",
+          "flags": []
+        },
+        {
+          "n": 2,
+          "start": 2.18,
+          "dur": 1.82,
+          "words": 5,
+          "text": "It was in the contract.",
+          "concrete": 0,
+          "label": "",
+          "flags": []
+        },
+        {
+          "n": 3,
+          "start": 4.0,
+          "dur": 1.82,
+          "words": 5,
+          "text": "We signed it in March.",
+          "concrete": 1,
+          "label": "MID",
+          "flags": []
+        },
+        {
+          "n": 4,
+          "start": 5.82,
+          "dur": 2.18,
+          "words": 6,
+          "text": "Now it is the first line.",
+          "concrete": 0,
+          "label": "",
+          "flags": []
+        },
+        {
+          "n": 5,
+          "start": 8.0,
+          "dur": 1.82,
+          "words": 5,
+          "text": "The $18,000 stayed with me.",
+          "concrete": 2,
+          "label": "CTA",
+          "flags": []
+        }
+      ],
+      "notes": [
+        "Loops: the last beat repeats \"$18,000\" from the hook. Second watches are free reach.",
+        "5.2s under target. Either add 14 words or shoot it short. Short is usually right."
+      ]
+    }
+  },
+  "caption": {
+    "input": "I lost $18,000 on one clause, comment CONTRACT and I will send it.\n\nClient proposals are where it hides.\n\n#contracts #freelance\n",
+    "keywords": [
+      "client proposals"
+    ],
+    "output": {
+      "characters": 127,
+      "limit": 2200,
+      "truncate_at": 125,
+      "visible": "I lost $18,000 on one clause, comment CONTRACT and I will send it.\n\nClient proposals are where it hides.\n\n#contracts #freelan",
+      "truncated": true,
+      "first_line_chars": 66,
+      "hashtags": [
+        "#contracts",
+        "#freelance"
+      ],
+      "mentions": [],
+      "links": [],
+      "emoji": 0,
+      "asks": [
+        "comment a keyword"
+      ],
+      "checks": [
+        {
+          "check": "LENGTH",
+          "status": "PASS",
+          "detail": "127 / 2200 characters"
+        },
+        {
+          "check": "FIRST LINE",
+          "status": "PASS",
+          "detail": "66 characters, lands whole"
+        },
+        {
+          "check": "HOOK IS CONCRETE",
+          "status": "PASS",
+          "detail": "2 number(s) or name(s) in the visible window"
+        },
+        {
+          "check": "HASHTAGS",
+          "status": "PASS",
+          "detail": "2 tag(s): #contracts #freelance"
+        },
+        {
+          "check": "TAG PLACEMENT",
+          "status": "WARN",
+          "detail": "a hashtag is inside the visible window, spending feed space on a label"
+        },
+        {
+          "check": "LINKS",
+          "status": "PASS",
+          "detail": "no dead links in the body"
+        },
+        {
+          "check": "ONE ASK",
+          "status": "PASS",
+          "detail": "one call to action: comment a keyword"
+        },
+        {
+          "check": "EMOJI",
+          "status": "PASS",
+          "detail": "0 emoji, 0.0 per 100 characters"
+        },
+        {
+          "check": "SEARCH TERMS",
+          "status": "PASS",
+          "detail": "1/1 present, 1 in the visible window"
+        }
+      ],
+      "verdict": "REVIEW"
+    }
+  },
+  "humanize": {
+    "input": "In today's fast-paced world, it's crucial to leverage AI — it's not just a tool, it's a game-changer. Let's delve into the robust, seamless workflow.\n",
+    "output": "Right now, it's important to use AI, it's not just a tool, it's a big deal. Let's look at the solid, clean workflow.\n"
+  },
+  "detect": {
+    "input": "Okay so I spent three nights fighting the export settings on my laptop. The colours came out close, but the first two exports banded. What fixed it was 10-bit instead of 8-bit. Now a 12-second reel exports in about 20 seconds.\n",
+    "score": 42.0
+  },
+  "classify_en": {
+    "$18,000 is what one missing clause cost me.": 1,
+    "Stop posting three times a day. Post twice and reply to every comment for an hour.": 2,
+    "Nobody tells you that your first 30 reels are supposed to flop.": 3,
+    "This $12 tool replaced the editor I was paying $2,000 a month.": 4,
+    "Proposals used to take me five hours. They take twenty minutes now.": 5,
+    "I posted one reel a day for 60 days. Here is what it did to my DMs.": 6,
+    "You are writing captions wrong, and it is not your fault. Instagram hides everything after line one.": null,
+    "I spent six years selling agency retainers. Here is what we never put in the proposal.": null,
+    "Steal this four-line follow-up. It took me two years and a lot of dead leads.": 9,
+    "If your reels get views and no followers, the next 40 seconds fix it.": 10,
+    "Five caption edits that double saves. Number four is the one nobody does.": null,
+    "\"I don't want to be on camera.\" Fine. Here is the faceless version that still sells.": null,
+    "This was my profile in March. This is it now. I changed the name field, nothing else.": 13,
+    "Photographers charging under $2,000: this is the pricing page you have been avoiding.": null,
+    "My first 47 reels averaged 300 views. Number 48 did 400,000. One thing was different.": 15,
+    "\"How do I post consistently without hating it?\" I get this one every week.": 16,
+    "Carousels versus reels. I ran both for 90 days and it was not close.": 17,
+    "Watch what happens when I paste a competitor's caption into this.": 18,
+    "Your top nine grid crops change the second you post a reel. Fix the covers first.": null,
+    "You do not need a niche. You need one person you can name.": 20,
+    "...and that is when the client asked for the money back. Three days after approving it.": 21,
+    "Nice guys finish first.": 22,
+    "33% of high school graduates never read another book.": 23,
+    "This is the new Sony point and shoot, and it fixes the one thing I hated.": 24,
+    "There was one creator who grew a million subscribers in a single month.": 25,
+    "The fastest way to get confident is to build evidence you cannot argue with.": 26
+  }
+}

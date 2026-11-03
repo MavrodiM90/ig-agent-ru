@@ -1,0 +1,13 @@
+{
+  "name": "ig-agent-ru",
+  "description": "13 скиллов для Instagram на русском: сценарии рилсов по 26 формулам хука с оценкой, подписи с проверкой, карусели, сторис, профиль, план недели, комментарии, директ, разбор чужих рилсов, аудит и очеловечивание текста. Russian edition of instagram-agent-skill.",
+  "version": "1.0.0",
+  "author": {
+    "name": "MavrodiM90",
+    "url": "https://github.com/MavrodiM90"
+  },
+  "homepage": "https://github.com/MavrodiM90/ig-agent-ru",
+  "repository": "https://github.com/MavrodiM90/ig-agent-ru",
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "russian", "русский", "рилсы", "content", "humanizer", "claude-skills"]
+}
