@@ -66,6 +66,6 @@ only.
 python3 -m unittest discover -s tests -v
 ```
 
-42 tests, run in CI on Linux, Windows and macOS.
+43 tests, run in CI on Linux, Windows and macOS.
 
 MIT. Credit to Jake Schincariol for the original pack.

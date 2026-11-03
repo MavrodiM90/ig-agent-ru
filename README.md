@@ -145,7 +145,7 @@ Copy-Item -Recurse ig-agent-ru\skills\ig-* $HOME\.claude\skills\
 python3 -m unittest discover -s tests -v     # Windows: py -m unittest discover -s tests -v
 ```
 
-42 теста: русский язык, каждый исправленный баг и английская регрессия
+43 теста: русский язык, каждый исправленный баг и английская регрессия
 против снимка оригинала (`tests/upstream_snapshot.json`), чтобы английские
 оценки не менялись там, где их не касались исправления. CI гоняет их на
 Linux, Windows и macOS.
